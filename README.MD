@@ -3,7 +3,7 @@
 * [Building and Running](#Building and Running)
 * [License](#License)
 
-###Introduction
+### Introduction
 This is one more example of the [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) implementation in java.
 <br/> 
 I have chosen bank apps - because it's business logic can be a token example of a "business logic oriented" application.
@@ -15,12 +15,12 @@ Is service are belongings to use-case level, for me the answer is yes.
 If we take a typical data-centric application it is seldom gonna create use-case scenarios that require more than 
 one service and one data-source and presenter.
 
-###Architecture
+### Architecture
 
-#####The main principle of the Clean Architecture
+##### The main principle of the Clean Architecture
 * Dependencies go from implementation to abstractions
 
-#####Advantages
+##### Advantages
 * Independent from other technologies like UI, databases, frameworks, etc.
 * Better testable
 
@@ -48,7 +48,7 @@ And we need some connections to 'external work' (from our application point of v
 * Transaction Data interface
 
 ### Building and Running
-####From Console
+#### From Console
 * building the application:
 ```
 ./gradlew clean build
@@ -57,7 +57,7 @@ And we need some connections to 'external work' (from our application point of v
 ```
 ./gradlew :clean-achitecture-simple-impl:cleanTest :clean-achitecture-simple-impl:test
 ```
-####From the IntelliJ:
+#### From the IntelliJ:
 Importing the project - open the _build.gradle_ file as "a Project" in IntelliJ all dependencies will be loaded by IDE.
 
 
