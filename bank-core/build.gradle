@@ -1,0 +1,10 @@
+group 'org.vmikhailov.java.cleanarchitecture'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+}

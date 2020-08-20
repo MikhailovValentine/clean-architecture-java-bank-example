@@ -1,0 +1,22 @@
+allprojects {
+    apply plugin: 'idea'
+    apply plugin: 'java'
+    apply plugin: 'application'
+
+    wrapper {
+        gradleVersion = '6.6'
+    }
+
+    group 'org.vmikhailov.java.cleanarchitecture'
+    version '1.0'
+
+    application {
+        mainClassName = 'org.vmikhailov.java.cleanarchitecture.impl.Application'
+    }
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+}

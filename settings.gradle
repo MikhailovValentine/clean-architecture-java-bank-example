@@ -1,0 +1,4 @@
+rootProject.name = 'bank'
+
+include 'bank-core'
+include 'bank-spring-impl'
