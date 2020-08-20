@@ -1,3 +1,4 @@
+# Bank - Clean Architecture - Java  [![Build Status](https://travis-ci.com/MikhailovValentine/clean-architecture-java-bank-example.svg?branch=master)](https://travis-ci.com/github/MikhailovValentine/clean-architecture-java-bank-example) 
 * [Introduction](#introduction)
 * [Architecture](#architecture)
 * [Building and Running](#building-and-running)
