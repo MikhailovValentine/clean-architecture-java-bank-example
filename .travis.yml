@@ -2,5 +2,8 @@ language: java
 jdk: openjdk8
 os: linux
 
+before_install:
+  - chmod +x gradlew
+
 script:
   ./gradlew :bank-spring-impl:cleanTest :bank-spring-impl:test
