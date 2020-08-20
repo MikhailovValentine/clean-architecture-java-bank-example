@@ -1,7 +1,7 @@
-* [Introduction](#Introduction)
-* [Architecture](#Architecture)
-* [Building and Running](#Building and Running)
-* [License](#License)
+* [Introduction](#introduction)
+* [Architecture](#architecture)
+* [Building and Running](#building-and-running)
+* [License](#license)
 
 ### Introduction
 This is one more example of the [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) implementation in java.
